@@ -1,7 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 body {
-    background-color: #f7dcb8;
-  }
+  background-color: #f7dcb8;
+}
+.navbar-brand {
+  color: black !important;
+}
+.nav-link {
+  color: rgb(10, 73, 10) !important;
+  font-weight: 600;
+}
+.text-mine {
+  color: rgb(255, 255, 255) !important;
+}
+.bg-mine {
+  background-color: #f7dcb8;
+}
+.headline-text {
+  color: rgb(50, 53, 50) !important;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+.bordbot {
+  text-decoration: underline;
+  text-decoration-color: rgb(10, 87, 10);
+}
+.btn-mine {
+  background-color: rgb(238, 86, 86);
+  color: white;
+}
+.btn-mine:hover {
+  background-color: rgb(255, 105, 105);
+  color: white;
+}

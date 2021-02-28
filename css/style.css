@@ -87,9 +87,95 @@ body {
 .mt-mine {
   margin-top: 25rem;
 }
-
 .three {
   font-size: 40px;
+}
+.myback {
+  padding: 20px 0px 20px 0px;
+  border-radius: 10px;
+}
+.title2 {
+  font-weight: 550;
+  color: rgb(0, 0, 0);
+}
+.inside_title2 {
+  color: rgb(99, 99, 99);
+  padding-right: 200px;
+}
+.bolder {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.bordbot2 {
+  border-bottom: 1px solid #002259;
+}
+.mybtn3 {
+  background-color: none !important;
+  color: #000000;
+  border-radius: 0px;
+  border: 1px solid #002259;
+}
+.mybtn3:hover {
+  background-color: none !important;
+  color: #000000;
+  border-radius: 0px;
+  border: 1px solid #002259;
+}
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    rgb(238, 86, 86) 0%,
+    rgb(238, 86, 86) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(238, 86, 86) 0%,
+    rgb(238, 86, 86) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.no-border {
+  border: none;
+}
+.no-border:focus {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: 0;
+}
+.mytitle {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #313131;
+}
+.fields {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f3fa;
+}
+.fields:focus {
+  outline: none;
+}
+.mess {
+  padding: 2rem 1rem;
+}
+.sendbtn {
+  background-color: rgb(238, 86, 86);
+  color: white;
+  border-radius: 100px;
+  border: 1px solid rgb(238, 86, 86);
+}
+.sendbtn:hover {
+  color: rgb(238, 86, 86);
+  background-color: white;
+  border: 1px solid rgb(238, 86, 86);
+}
+.bg-mine2 {
+  background-color: rgb(255, 255, 255);
 }
 @media (max-width: 700px) {
   .headline-text {

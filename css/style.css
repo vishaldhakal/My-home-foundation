@@ -155,7 +155,7 @@ body {
   padding: 1rem;
   border: none;
   border-radius: 10px;
-  background-color: #f1f3fa;
+  background-color: #ffffff;
 }
 .fields:focus {
   outline: none;
@@ -176,6 +176,46 @@ body {
 }
 .bg-mine2 {
   background-color: rgb(255, 255, 255);
+}
+
+.card-text {
+  color: rgb(61, 59, 59);
+}
+.card-color {
+  background-color: tomato !important;
+}
+
+.wrapper {
+  position: relative;
+  flex-grow: 1;
+  margin: auto;
+  max-width: 1200px;
+  max-height: 1200px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2vmin;
+  justify-items: center;
+  align-items: center;
+}
+
+.cliip {
+  z-index: 1;
+  grid-column: span 2;
+  max-width: 100%;
+  margin-bottom: -52%;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  transform: scale(1);
+  transition: all 0.25s;
+}
+.cliip:nth-child(7n + 1) {
+  grid-column: 2 / span 2;
+}
+.cliip:hover {
+  cursor: pointer;
+  z-index: 2;
+  transform: scale(1.05);
 }
 @media (max-width: 700px) {
   .headline-text {

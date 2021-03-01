@@ -251,3 +251,8 @@
 .footer-bg {
   background-color: tomato;
 }
+.footer-nav {
+  color: rgb(39, 36, 36) !important;
+  font-weight: 600;
+  font-size: 25px;
+}

@@ -5,8 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: #f7dcb8;
+.bggg {
+  background-color: #fff9ee;
 }
 .navbar-brand {
   color: black !important;
@@ -155,7 +155,7 @@ body {
   padding: 1rem;
   border: none;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #f1f3fa;
 }
 .fields:focus {
   outline: none;

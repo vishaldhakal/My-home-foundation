@@ -248,15 +248,15 @@
     margin-top: 5rem;
   }
 }
-.footer-bg {
-  background-color: rgb(238, 235, 235);
-}
+
 .footer-link {
   color: rgb(39, 36, 36) !important;
   font-weight: 600;
   font-size: 15px;
 }
-.vl{
-  border-left: 2px solid black;
-  height: 200px;
-}
+
+  .vl{
+    border-left: 2px solid black;
+    height: 200px; 
+  }
+

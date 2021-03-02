@@ -5,8 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: #f7dcb8;
+.bggg {
+  background-color: #fff9ee;
 }
 .navbar-brand {
   color: black !important;
@@ -155,7 +155,7 @@ body {
   padding: 1rem;
   border: none;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #f1f3fa;
 }
 .fields:focus {
   outline: none;
@@ -217,6 +217,21 @@ body {
   z-index: 2;
   transform: scale(1.05);
 }
+.mytitle2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.mysubtitle {
+  color: #474747;
+}
+.justifyy {
+  text-align: justify;
+  -moz-text-align: justify;
+  -webkit-text-align: justify;
+}
+.ic1 {
+  height: 100px;
+}
 @media (max-width: 700px) {
   .headline-text {
     font-size: 2rem;
@@ -233,7 +248,7 @@ body {
     margin-top: 5rem;
   }
 }
-.footer-bg{
+.footer-bg {
   background-color: tomato;
 }
 .footer-nav {

@@ -136,9 +136,6 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.no-border {
-  border: none;
-}
 .no-border:focus {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
@@ -232,7 +229,23 @@
 .ic1 {
   height: 100px;
 }
+.borderleftt {
+  border-left: 1px solid #212529;
+}
+.subbtn {
+  border-radius: 0;
+  padding: 1rem;
+}
+.no-round {
+  border-radius: 0;
+}
+.text-footer {
+  font-weight: bold;
+}
 @media (max-width: 700px) {
+  .borderleftt {
+    border-left: none;
+  }
   .headline-text {
     font-size: 2rem;
     line-height: 3rem;
@@ -248,6 +261,14 @@
     margin-top: 5rem;
   }
 }
-.footer-bg {
-  background-color: tomato;
+
+.footer-link {
+  color: rgb(39, 36, 36) !important;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 200px;
 }

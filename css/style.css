@@ -275,3 +275,11 @@
 .card-title{
   font-weight: bold;
 }
+.center-diamond{
+  background: orangered;
+  width: 500px;
+  border: 1px solid orangered;
+  margin: auto;
+  
+  
+}

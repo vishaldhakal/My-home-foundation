@@ -269,3 +269,9 @@
   font-weight: 600;
   font-size: 15px;
 }
+.donation-card{
+  background-color: #245132;
+}
+.card-title{
+  font-weight: bold;
+}

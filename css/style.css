@@ -246,7 +246,7 @@
   .borderleftt {
     border-left: none;
   }
-=======
+}
 @media (max-width: 700px) {
   .headline-text {
     font-size: 2rem;
@@ -269,8 +269,3 @@
   font-weight: 600;
   font-size: 15px;
 }
-.vl {
-  border-left: 2px solid black;
-  height: 200px;
-}
-

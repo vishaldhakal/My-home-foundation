@@ -15,6 +15,11 @@
   color: rgb(10, 73, 10) !important;
   font-weight: 600;
 }
+.navbar-toggler {
+  color: black !important;
+  border: none !important;
+  padding: 0 !important;
+}
 .text-mine {
   color: rgb(255, 255, 255) !important;
 }
@@ -100,11 +105,13 @@
 }
 .inside_title2 {
   color: rgb(99, 99, 99);
-  padding-right: 200px;
 }
 .bolder {
   font-size: 2.5rem;
   font-weight: 700;
+}
+.lnhei {
+  line-height: 1rem;
 }
 .bordbot2 {
   border-bottom: 1px solid #002259;
@@ -154,11 +161,14 @@
   border-radius: 10px;
   background-color: #f1f3fa;
 }
+.f11 {
+  background-color: #ffffff;
+}
 .fields:focus {
   outline: none;
 }
 .mess {
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
 }
 .sendbtn {
   background-color: rgb(238, 86, 86);
@@ -242,6 +252,13 @@
 .text-footer {
   font-weight: bold;
 }
+.mybackk {
+  background-image: url("../image/2.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+}
 @media (max-width: 700px) {
   .borderleftt {
     border-left: none;
@@ -260,6 +277,9 @@
   .mt-mine {
     margin-top: 5rem;
   }
+  .lnhei {
+    line-height: 2.5rem;
+  }
 }
 
 .footer-link {
@@ -267,8 +287,15 @@
   font-weight: 600;
   font-size: 15px;
 }
-
-.vl {
-  border-left: 2px solid black;
-  height: 200px;
+.donation-card {
+  background-color: #245132;
+}
+.card-title {
+  font-weight: bold;
+}
+.center-diamond {
+  background: orangered;
+  width: 500px;
+  border: 1px solid orangered;
+  margin: auto;
 }

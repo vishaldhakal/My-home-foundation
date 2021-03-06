@@ -92,9 +92,6 @@
 .mt-mine {
   margin-top: 25rem;
 }
-.three {
-  font-size: 40px;
-}
 .myback {
   padding: 20px 0px 20px 0px;
   border-radius: 10px;
@@ -294,9 +291,32 @@
 .card-title {
   font-weight: bold;
 }
-.center-diamond {
-  background: orangered;
-  width: 500px;
-  border: 1px solid orangered;
-  margin: auto;
+.centered-about {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+ transform: translate( -50%, -50% );
+}
+
+.large-title{
+  font-size: 5rem;
+  font-weight: bold;
+}
+.title3{
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+.title3:hover{
+  color: #212529;
+}
+
+.title4{
+  font-size: 2rem;
+}
+.spacing{
+  padding-top: 5rem;
+}
+.our-team{
+  clip-path: polygon(25% 0%, 75% 0%, 100% 18%, 100% 100%, 0 100%, 0 18%);
 }

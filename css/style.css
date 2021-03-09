@@ -392,8 +392,11 @@
 .title4 {
   font-size: 2rem;
 }
-.spacing {
+.spacing-top {
   padding-top: 5rem;
+}
+.spacing-bottom {
+  padding-bottom: 5rem;
 }
 
 @media (max-width: 700px) {
@@ -434,4 +437,7 @@
 }
 .no-underline{
   text-decoration: none;
+}
+.image-round{
+  border-radius: 50%;
 }

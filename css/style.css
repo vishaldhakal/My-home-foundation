@@ -441,3 +441,6 @@
 .image-round{
   border-radius: 50%;
 }
+.spacing-left {
+  padding-left: 10rem;
+}

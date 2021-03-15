@@ -1,0 +1,372 @@
+:root {
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4
+}
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0;
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
+}
+
+h2,
+p {
+	margin: 0
+}
+
+html {
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	line-height: 1.5
+}
+
+body {
+	font-family: inherit;
+	line-height: inherit
+}
+
+* {
+	box-sizing: border-box;
+	border: 0 solid #e5e7eb
+}
+
+h2 {
+	font-size: inherit;
+	font-weight: inherit
+}
+
+svg {
+	display: block;
+	vertical-align: middle
+}
+
+.container {
+	width: 100%
+}
+
+@media (min-width:640px) {
+	.container {
+		max-width: 640px
+	}
+}
+
+@media (min-width:768px) {
+	.container {
+		max-width: 768px
+	}
+}
+
+@media (min-width:1024px) {
+	.container {
+		max-width: 1024px
+	}
+}
+
+@media (min-width:1280px) {
+	.container {
+		max-width: 1280px
+	}
+}
+
+@media (min-width:1536px) {
+	.container {
+		max-width: 1536px
+	}
+}
+
+.bg-gray-200 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(229, 231, 235, var(--tw-bg-opacity))
+}
+
+.bg-green-100 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(209, 250, 229, var(--tw-bg-opacity))
+}
+
+.bg-green-500 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(16, 185, 129, var(--tw-bg-opacity))
+}
+
+.rounded-full {
+	border-radius: 9999px
+}
+
+.flex {
+	display: flex
+}
+
+.inline-flex {
+	display: inline-flex
+}
+
+.flex-row {
+	flex-direction: row
+}
+
+.flex-col {
+	flex-direction: column
+}
+
+.flex-wrap {
+	flex-wrap: wrap
+}
+
+.items-start {
+	align-items: flex-start
+}
+
+.items-center {
+	align-items: center
+}
+
+.justify-center {
+	justify-content: center
+}
+
+.flex-grow {
+	flex-grow: 1
+}
+
+.flex-shrink-0 {
+	flex-shrink: 0
+}
+
+.font-medium {
+	font-weight: 500
+}
+
+.h-6 {
+	height: 1.5rem
+}
+
+.h-12 {
+	height: 3rem
+}
+
+.h-24 {
+	height: 6rem
+}
+
+.h-full {
+	height: 100%
+}
+
+.text-sm {
+	font-size: .875rem;
+	line-height: 1.25rem
+}
+
+.text-xl {
+	line-height: 1.75rem
+}
+
+.text-xl {
+	font-size: 1.25rem
+}
+
+.leading-relaxed {
+	line-height: 1.625
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto
+}
+
+.mt-0 {
+	margin-top: 0
+}
+
+.mb-1 {
+	margin-bottom: .25rem
+}
+
+.mt-6 {
+	margin-top: 1.5rem
+}
+
+.mt-10 {
+	margin-top: 2.5rem
+}
+
+.px-5 {
+	padding-left: 1.25rem;
+	padding-right: 1.25rem
+}
+
+.py-24 {
+	padding-top: 6rem;
+	padding-bottom: 6rem
+}
+
+.pl-6 {
+	padding-left: 1.5rem
+}
+
+.pl-8 {
+	padding-left: 2rem
+}
+
+.pt-10 {
+	padding-top: 2.5rem
+}
+
+.pb-10 {
+	padding-bottom: 2.5rem
+}
+
+.pb-20 {
+	padding-bottom: 5rem
+}
+
+.pointer-events-none {
+	pointer-events: none
+}
+
+.absolute {
+	position: absolute
+}
+
+.relative {
+	position: relative
+}
+
+.inset-0 {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+
+* {
+	--tw-shadow: 0 0 transparent
+}
+
+* {
+	--tw-ring-inset: var(--tw-empty, /*!*/
+	/*!*/
+	);
+	--tw-ring-offset-width: 0px;
+	--tw-ring-offset-color: #fff;
+	--tw-ring-color: rgba(59, 130, 246, 0.5);
+	--tw-ring-offset-shadow: 0 0 transparent;
+	--tw-ring-shadow: 0 0 transparent
+}
+
+.text-white {
+	--tw-text-opacity: 1;
+	color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+.text-gray-600 {
+	--tw-text-opacity: 1;
+	color: rgba(75, 85, 99, var(--tw-text-opacity))
+}
+
+.text-gray-900 {
+	--tw-text-opacity: 1;
+	color: rgba(17, 24, 39, var(--tw-text-opacity))
+}
+
+.text-green-500 {
+	--tw-text-opacity: 1;
+	color: rgba(16, 185, 129, var(--tw-text-opacity))
+}
+
+.w-1 {
+	width: .25rem
+}
+
+.w-2 {
+	width: .5rem
+}
+
+.w-6 {
+	width: 1.5rem
+}
+
+.w-12 {
+	width: 3rem
+}
+
+.w-24 {
+	width: 6rem
+}
+
+.z-10 {
+	z-index: 10
+}
+
+@-webkit-keyframes spin {
+	to {
+		transform: rotate(1turn)
+	}
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(1turn)
+	}
+}
+
+@-webkit-keyframes ping {
+	75%,
+	to {
+		transform: scale(2);
+		opacity: 0
+	}
+}
+
+@keyframes ping {
+	75%,
+	to {
+		transform: scale(2);
+		opacity: 0
+	}
+}
+
+@-webkit-keyframes pulse {
+	50% {
+		opacity: .5
+	}
+}
+
+@keyframes pulse {
+	50% {
+		opacity: .5
+	}
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	to {
+		transform: translateY(-25%);
+		-webkit-animation-timing-function: cubic-bezier(.8, 0, 1, 1);
+		animation-timing-function: cubic-bezier(.8, 0, 1, 1)
+	}
+	50% {
+		transform: none;
+		-webkit-animation-timing-function: cubic-bezier(0, 0, .2, 1);
+		animation-timing-function: cubic-bezier(0, 0, .2, 1)
+	}
+}
+
+@keyframes bounce {
+	0%,
+	to {
+		transform: translateY(-25%);
+		-webkit-animation-timing-function: cubic-bezier(.8, 0, 1, 1);
+		animation-timing-function: cubic-bezier(.8, 0, 1, 1)
+	}
+	50% {
+		transform: none;
+		-webkit-animation-timing-function: cubic-bezier(0, 0, .2, 1);
+		animation-timing-function: cubic-bezier(0, 0, .2, 1)
+	}
+}
